@@ -1,0 +1,28 @@
+import matplotlib.pyplot as plt
+
+x = [1,2,3,4]
+y = [10,20,25,30]
+
+plt.plot(x, y)
+plt.title("Line Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.show()
+
+#Multiple Line Plots
+import matplotlib.pyplot as plt
+
+x = [1,2,3,4]
+
+y1 = [10,20,25,30]
+y2 = [5,15,20,25]
+
+plt.plot(x, y1, label="Sales 2024")
+plt.plot(x, y2, label="Sales 2025")
+
+plt.title("Multiple Line Plot")
+plt.xlabel("Time")
+plt.ylabel("Sales")
+plt.legend()
+
+plt.show()
