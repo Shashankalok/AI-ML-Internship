@@ -1,0 +1,1 @@
+Day 3 of my internship focused on data visualization using Python libraries like Matplotlib and Seaborn. Created various plots such as bar charts, line graphs, and histograms to understand and present data insights effectively.”
