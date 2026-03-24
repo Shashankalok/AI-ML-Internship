@@ -1,0 +1,1 @@
+This repository contains my Day 1 internship work on AI/ML fundamentals, including concepts of Artificial Intelligence, Machine Learning, Deep Learning, supervised vs unsupervised learning, and environment setup using Python, Git, and GitHub and VS code
