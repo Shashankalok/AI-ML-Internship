@@ -1,8 +1,8 @@
-#2nd -Scatter-plot
-import seaborn as sns
 import matplotlib.pyplot as plt
 
-tips = sns.load_dataset("tips")
+labels = ["A","B","C"]
+sizes = [30,40,30]
 
-sns.scatterplot(x="total_bill", y="tip", data=tips)
+plt.pie(sizes, labels=labels)
+plt.title("Pie Chart")
 plt.show()
