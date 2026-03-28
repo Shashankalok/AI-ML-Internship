@@ -26,3 +26,23 @@ plt.ylabel("Sales")
 plt.legend()
 
 plt.show()
+
+##Styled line plot
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [10, 20, 30, 40]
+
+plt.plot(x, y, linestyle='--', marker='o')
+plt.title("Styled Line Plot")
+plt.show()
+
+##Step line plot
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [10, 20, 30, 40]
+
+plt.step(x, y)
+plt.title("Step Line Plot")
+plt.show()
