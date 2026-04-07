@@ -1,0 +1,15 @@
+
+Summarization:
+Summarize the following text in {n} bullet points:
+
+Extraction:
+Extract {specific information} from the text:
+
+Generation:
+Act as a {role} and generate {output}:
+
+Reasoning:
+Solve step-by-step:
+
+Email:
+Write a professional email for {purpose}:
