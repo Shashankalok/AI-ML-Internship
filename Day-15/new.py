@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 
 # 🔑 API Key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Api key"
 
 # UI
 st.set_page_config(page_title="AI Data Analyst", layout="wide")
