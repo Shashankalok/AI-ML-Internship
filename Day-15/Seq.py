@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
 # 🔑 API Key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Api Key"
 
 # UI
 st.set_page_config(page_title="Sequential Chain App", layout="centered")
