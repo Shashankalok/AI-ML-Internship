@@ -6,7 +6,7 @@ from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
 #  Set your Groq API key here
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Api key"
 
 # Page config
 st.set_page_config(page_title="AI Chatbot", layout="centered")
