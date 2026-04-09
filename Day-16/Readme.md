@@ -105,7 +105,7 @@ pip install streamlit chromadb sentence-transformers groq pypdf
 ## ▶️ Run the Application
 
 ```bash
-streamlit run app.py
+streamlit run Rag.py
 ```
 
 ---
