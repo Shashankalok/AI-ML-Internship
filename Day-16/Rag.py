@@ -23,7 +23,7 @@ client_db = chromadb.Client(
 collection = client_db.get_or_create_collection(name="rag_collection")
 
 # 🔑 Put your Groq API key here
-groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="Api key")
 
 # -------------------------------
 # 🔹 Functions
