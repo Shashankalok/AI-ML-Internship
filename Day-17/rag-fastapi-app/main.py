@@ -17,7 +17,7 @@ documents = {}
 history = []
 
 #  Groq client (API KEY)
-client = Groq(api_key="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")
+client = Groq(api_key="api key")
 
 # File validation
 ALLOWED_TYPES = [".pdf", ".txt", ".docx"]
