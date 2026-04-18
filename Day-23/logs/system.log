@@ -1,0 +1,233 @@
+2026-04-18 12:13:47,107 - INFO - \U0001f680 System execution started
+2026-04-18 12:13:47,130 - INFO - Processing file: data/raw/transactions.csv
+2026-04-18 12:13:52,964 - ERROR - \u274c Pipeline failed: Recursion limit of 10007 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-04-18 12:16:45,955 - INFO - \U0001f680 System execution started
+2026-04-18 12:16:45,983 - INFO - Processing file: data/raw/transactions.csv
+2026-04-18 12:16:46,001 - INFO - \u2705 Pipeline executed successfully
+2026-04-18 13:26:10,941 - INFO -  System execution started
+2026-04-18 13:26:10,945 - INFO -  Building workflow graph
+2026-04-18 13:26:10,987 - INFO -  Workflow graph compiled successfully
+2026-04-18 13:26:10,987 - INFO -  Processing file: data/sample/creditcard.csv
+2026-04-18 13:26:10,999 - INFO - \U0001f4e5 Loading dataset from: data/sample/creditcard.csv
+2026-04-18 13:26:10,999 - INFO -  Reading dataset: data/sample/creditcard.csv
+2026-04-18 13:26:14,370 - INFO -  Dataset validated successfully
+2026-04-18 13:26:14,370 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 13:26:14,371 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 13:26:39,753 - INFO - \u2705 Analysis completed successfully
+2026-04-18 13:26:39,769 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 13:26:39,769 - INFO - \u2705 Analysis approved
+2026-04-18 13:26:39,770 - INFO -  Routing decision based on status: approved
+2026-04-18 13:26:39,771 - INFO - \U0001f4dd Generating final report
+2026-04-18 13:26:39,771 - INFO -  Report generated successfully
+2026-04-18 13:26:39,772 - INFO -  Pipeline executed successfully
+2026-04-18 13:51:39,194 - INFO -  System execution started
+2026-04-18 13:51:39,194 - INFO -  Building workflow graph
+2026-04-18 13:51:39,223 - INFO -  Workflow graph compiled successfully
+2026-04-18 13:51:39,223 - INFO -  Processing file: data/sample/creditcard.csv
+2026-04-18 13:51:39,230 - INFO - \U0001f4e5 Loading dataset from: data/sample/creditcard.csv
+2026-04-18 13:51:39,230 - INFO -  Reading dataset: data/sample/creditcard.csv
+2026-04-18 13:51:42,249 - INFO -  Dataset validated successfully
+2026-04-18 13:51:42,249 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 13:51:42,250 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 13:52:09,041 - INFO - \u2705 Analysis completed successfully
+2026-04-18 13:52:09,057 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 13:52:09,058 - INFO - \u2705 Analysis approved
+2026-04-18 13:52:09,058 - INFO -  Routing decision based on status: approved
+2026-04-18 13:52:09,059 - INFO - \U0001f4dd Generating final report
+2026-04-18 13:52:09,059 - INFO -  Report generated successfully
+2026-04-18 13:52:09,060 - INFO -  Pipeline executed successfully
+2026-04-18 13:53:36,127 - INFO -  System execution started
+2026-04-18 13:53:36,127 - INFO -  Building workflow graph
+2026-04-18 13:53:36,150 - INFO -  Workflow graph compiled successfully
+2026-04-18 13:53:36,150 - INFO -  Processing file: temp.csv
+2026-04-18 13:53:36,156 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 13:53:36,157 - INFO -  Reading dataset: temp.csv
+2026-04-18 13:53:41,021 - INFO -  Dataset validated successfully
+2026-04-18 13:53:41,021 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 13:53:41,024 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 13:54:06,222 - INFO - \u2705 Analysis completed successfully
+2026-04-18 13:54:06,239 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 13:54:06,239 - INFO - \u2705 Analysis approved
+2026-04-18 13:54:06,240 - INFO -  Routing decision based on status: approved
+2026-04-18 13:54:06,242 - INFO - \U0001f4dd Generating final report
+2026-04-18 13:54:06,242 - INFO -  Report generated successfully
+2026-04-18 13:54:06,243 - INFO -  Pipeline executed successfully
+2026-04-18 14:41:10,879 - INFO -  System execution started
+2026-04-18 14:41:10,880 - INFO -  Building workflow graph
+2026-04-18 14:41:10,902 - INFO -  Workflow graph compiled successfully
+2026-04-18 14:41:10,902 - INFO -  Processing file: data/sample/creditcard.csv
+2026-04-18 14:41:10,913 - INFO - \U0001f4e5 Loading dataset from: data/sample/creditcard.csv
+2026-04-18 14:41:10,913 - INFO -  Reading dataset: data/sample/creditcard.csv
+2026-04-18 14:41:14,216 - INFO -  Dataset validated successfully
+2026-04-18 14:41:14,216 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 14:41:14,217 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 14:41:36,173 - INFO - \u2705 Analysis completed successfully
+2026-04-18 14:41:36,191 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 14:41:36,191 - INFO - \u2705 Analysis approved
+2026-04-18 14:41:36,192 - INFO -  Routing decision based on status: approved
+2026-04-18 14:41:36,193 - INFO - \U0001f4dd Generating final report
+2026-04-18 14:41:36,193 - INFO -  Report generated successfully
+2026-04-18 14:41:36,193 - INFO -  Pipeline executed successfully
+2026-04-18 14:44:09,852 - INFO -  System execution started
+2026-04-18 14:44:09,853 - INFO -  Building workflow graph
+2026-04-18 14:44:09,883 - INFO -  Workflow graph compiled successfully
+2026-04-18 14:44:09,883 - INFO -  Processing file: temp.csv
+2026-04-18 14:44:09,892 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 14:44:09,892 - INFO -  Reading dataset: temp.csv
+2026-04-18 14:44:14,127 - INFO -  Dataset validated successfully
+2026-04-18 14:44:14,127 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 14:44:14,129 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 14:44:43,222 - INFO - \u2705 Analysis completed successfully
+2026-04-18 14:44:43,241 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 14:44:43,241 - INFO - \u2705 Analysis approved
+2026-04-18 14:44:43,241 - INFO -  Routing decision based on status: approved
+2026-04-18 14:44:43,242 - INFO - \U0001f4dd Generating final report
+2026-04-18 14:44:43,242 - INFO -  Report generated successfully
+2026-04-18 14:44:43,243 - INFO -  Pipeline executed successfully
+2026-04-18 14:51:07,226 - INFO -  System execution started
+2026-04-18 14:51:07,226 - INFO -  Building workflow graph
+2026-04-18 14:51:07,263 - INFO -  Workflow graph compiled successfully
+2026-04-18 14:51:07,263 - INFO -  Processing file: temp.csv
+2026-04-18 14:51:07,274 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 14:51:07,274 - INFO -  Reading dataset: temp.csv
+2026-04-18 14:51:11,440 - INFO -  Dataset validated successfully
+2026-04-18 14:51:11,440 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 14:51:11,442 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 14:51:45,525 - INFO - \u2705 Analysis completed successfully
+2026-04-18 14:51:45,541 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 14:51:45,541 - INFO - \u2705 Analysis approved
+2026-04-18 14:51:45,542 - INFO -  Routing decision based on status: approved
+2026-04-18 14:51:45,542 - INFO - \U0001f4dd Generating final report
+2026-04-18 14:51:45,543 - INFO -  Report generated successfully
+2026-04-18 14:51:45,543 - INFO -  Pipeline executed successfully
+2026-04-18 14:57:00,832 - INFO -  System execution started
+2026-04-18 14:57:00,833 - INFO -  Building workflow graph
+2026-04-18 14:57:00,876 - INFO -  Workflow graph compiled successfully
+2026-04-18 14:57:00,876 - INFO -  Processing file: temp.csv
+2026-04-18 14:57:00,880 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 14:57:00,880 - INFO -  Reading dataset: temp.csv
+2026-04-18 14:57:00,941 - ERROR -  Data loading error: Missing columns: ['amount', 'class']
+2026-04-18 14:57:00,941 - ERROR -  Researcher Agent Error: Missing columns: ['amount', 'class']
+2026-04-18 14:57:00,943 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:57:00,945 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 14:57:00,945 - INFO - \u26a0\ufe0f No analysis found \u2192 retrying
+2026-04-18 14:57:00,945 - INFO -  Routing decision based on status: retry
+2026-04-18 14:57:00,947 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:57:00,948 - INFO - \U0001f50d Critic evaluating output (retry_count=1)
+2026-04-18 14:57:00,949 - INFO - \u26a0\ufe0f No analysis found \u2192 retrying
+2026-04-18 14:57:00,949 - INFO -  Routing decision based on status: retry
+2026-04-18 14:57:00,952 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:57:00,954 - INFO - \U0001f50d Critic evaluating output (retry_count=2)
+2026-04-18 14:57:00,954 - INFO - \u26a0\ufe0f Max retries reached \u2192 forcing approval
+2026-04-18 14:57:00,955 - INFO -  Routing decision based on status: approved
+2026-04-18 14:57:00,957 - ERROR - \u274c No analysis available for report generation
+2026-04-18 14:57:00,958 - INFO -  Pipeline executed successfully
+2026-04-18 14:58:50,612 - INFO -  System execution started
+2026-04-18 14:58:50,612 - INFO -  Building workflow graph
+2026-04-18 14:58:50,652 - INFO -  Workflow graph compiled successfully
+2026-04-18 14:58:50,653 - INFO -  Processing file: temp.csv
+2026-04-18 14:58:50,655 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 14:58:50,655 - INFO -  Reading dataset: temp.csv
+2026-04-18 14:58:50,698 - ERROR -  Data loading error: Missing columns: ['amount', 'class']
+2026-04-18 14:58:50,699 - ERROR -  Researcher Agent Error: Missing columns: ['amount', 'class']
+2026-04-18 14:58:50,699 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:58:50,700 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 14:58:50,700 - INFO - \u26a0\ufe0f No analysis found \u2192 retrying
+2026-04-18 14:58:50,701 - INFO -  Routing decision based on status: retry
+2026-04-18 14:58:50,701 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:58:50,702 - INFO - \U0001f50d Critic evaluating output (retry_count=1)
+2026-04-18 14:58:50,702 - INFO - \u26a0\ufe0f No analysis found \u2192 retrying
+2026-04-18 14:58:50,703 - INFO -  Routing decision based on status: retry
+2026-04-18 14:58:50,703 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:58:50,704 - INFO - \U0001f50d Critic evaluating output (retry_count=2)
+2026-04-18 14:58:50,704 - INFO - \u26a0\ufe0f Max retries reached \u2192 forcing approval
+2026-04-18 14:58:50,704 - INFO -  Routing decision based on status: approved
+2026-04-18 14:58:50,705 - ERROR - \u274c No analysis available for report generation
+2026-04-18 14:58:50,706 - INFO -  Pipeline executed successfully
+2026-04-18 14:58:59,729 - INFO -  System execution started
+2026-04-18 14:58:59,729 - INFO -  Building workflow graph
+2026-04-18 14:58:59,767 - INFO -  Workflow graph compiled successfully
+2026-04-18 14:58:59,767 - INFO -  Processing file: temp.csv
+2026-04-18 14:58:59,769 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 14:58:59,769 - INFO -  Reading dataset: temp.csv
+2026-04-18 14:58:59,813 - ERROR -  Data loading error: Missing columns: ['amount', 'class']
+2026-04-18 14:58:59,813 - ERROR -  Researcher Agent Error: Missing columns: ['amount', 'class']
+2026-04-18 14:58:59,815 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:58:59,815 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 14:58:59,815 - INFO - \u26a0\ufe0f No analysis found \u2192 retrying
+2026-04-18 14:58:59,816 - INFO -  Routing decision based on status: retry
+2026-04-18 14:58:59,816 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:58:59,817 - INFO - \U0001f50d Critic evaluating output (retry_count=1)
+2026-04-18 14:58:59,817 - INFO - \u26a0\ufe0f No analysis found \u2192 retrying
+2026-04-18 14:58:59,817 - INFO -  Routing decision based on status: retry
+2026-04-18 14:58:59,818 - ERROR - \u274c Analyzer error: No data available for analysis
+2026-04-18 14:58:59,819 - INFO - \U0001f50d Critic evaluating output (retry_count=2)
+2026-04-18 14:58:59,819 - INFO - \u26a0\ufe0f Max retries reached \u2192 forcing approval
+2026-04-18 14:58:59,820 - INFO -  Routing decision based on status: approved
+2026-04-18 14:58:59,821 - ERROR - \u274c No analysis available for report generation
+2026-04-18 14:58:59,822 - INFO -  Pipeline executed successfully
+2026-04-18 15:05:48,405 - INFO - \U0001f680 Pipeline started
+2026-04-18 15:05:48,406 - INFO - \U0001f4c2 Processing file: data/sample/creditcard.csv
+2026-04-18 15:05:48,406 - INFO -  Building workflow graph
+2026-04-18 15:05:48,502 - INFO -  Workflow graph compiled successfully
+2026-04-18 15:05:48,517 - INFO - \U0001f4e5 Loading dataset from: data/sample/creditcard.csv
+2026-04-18 15:05:48,517 - INFO -  Reading dataset: data/sample/creditcard.csv
+2026-04-18 15:05:53,702 - INFO -  Dataset validated successfully
+2026-04-18 15:05:53,702 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 15:05:53,703 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 15:06:17,976 - INFO - \u2705 Analysis completed successfully
+2026-04-18 15:06:17,991 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 15:06:18,349 - INFO - \u2705 Analysis approved
+2026-04-18 15:06:18,351 - INFO -  Routing decision based on status: approved
+2026-04-18 15:06:18,354 - INFO - \U0001f4dd Generating final report
+2026-04-18 15:06:18,355 - INFO -  Report generated successfully
+2026-04-18 15:06:18,357 - INFO - \u2705 Pipeline executed successfully
+2026-04-18 15:08:43,351 - INFO -  Pipeline started
+2026-04-18 15:08:43,352 - INFO -  Processing file: temp.csv
+2026-04-18 15:08:43,352 - INFO -  Building workflow graph
+2026-04-18 15:08:43,383 - INFO -  Workflow graph compiled successfully
+2026-04-18 15:08:43,393 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 15:08:43,393 - INFO -  Reading dataset: temp.csv
+2026-04-18 15:08:47,831 - INFO -  Dataset validated successfully
+2026-04-18 15:08:47,831 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 15:08:47,834 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 15:09:22,250 - INFO - \u2705 Analysis completed successfully
+2026-04-18 15:09:22,272 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 15:09:22,272 - INFO - \u2705 Analysis approved
+2026-04-18 15:09:22,272 - INFO -  Routing decision based on status: approved
+2026-04-18 15:09:22,273 - INFO - \U0001f4dd Generating final report
+2026-04-18 15:09:22,274 - INFO -  Report generated successfully
+2026-04-18 15:09:22,274 - INFO -  Pipeline executed successfully
+2026-04-18 15:10:29,408 - INFO -  Pipeline started
+2026-04-18 15:10:29,408 - INFO -  Processing file: temp.csv
+2026-04-18 15:10:29,408 - INFO -  Building workflow graph
+2026-04-18 15:10:29,438 - INFO -  Workflow graph compiled successfully
+2026-04-18 15:10:29,441 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 15:10:29,441 - INFO -  Reading dataset: temp.csv
+2026-04-18 15:10:34,157 - INFO -  Dataset validated successfully
+2026-04-18 15:10:34,157 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 15:10:34,159 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 15:11:20,730 - INFO - \u2705 Analysis completed successfully
+2026-04-18 15:11:20,748 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 15:11:20,748 - INFO - \u2705 Analysis approved
+2026-04-18 15:11:20,748 - INFO -  Routing decision based on status: approved
+2026-04-18 15:11:20,749 - INFO - \U0001f4dd Generating final report
+2026-04-18 15:11:20,749 - INFO -  Report generated successfully
+2026-04-18 15:11:20,750 - INFO -  Pipeline executed successfully
+2026-04-18 15:14:48,088 - INFO -  Pipeline started
+2026-04-18 15:14:48,089 - INFO -  Processing file: temp.csv
+2026-04-18 15:14:48,089 - INFO -  Building workflow graph
+2026-04-18 15:14:48,117 - INFO -  Workflow graph compiled successfully
+2026-04-18 15:14:48,118 - INFO - \U0001f4e5 Loading dataset from: temp.csv
+2026-04-18 15:14:48,118 - INFO -  Reading dataset: temp.csv
+2026-04-18 15:14:52,032 - INFO -  Dataset validated successfully
+2026-04-18 15:14:52,032 - INFO -  Dataset loaded successfully with 284807 rows
+2026-04-18 15:14:52,033 - INFO - \U0001f9e0 Running fraud detection engine
+2026-04-18 15:15:14,910 - INFO - \u2705 Analysis completed successfully
+2026-04-18 15:15:14,925 - INFO - \U0001f50d Critic evaluating output (retry_count=0)
+2026-04-18 15:15:14,925 - INFO - \u2705 Analysis approved
+2026-04-18 15:15:14,926 - INFO -  Routing decision based on status: approved
+2026-04-18 15:15:14,926 - INFO - \U0001f4dd Generating final report
+2026-04-18 15:15:14,926 - INFO -  Report generated successfully
+2026-04-18 15:15:14,927 - INFO -  Pipeline executed successfully
