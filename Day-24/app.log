@@ -1,0 +1,138 @@
+2026-04-20 14:47:31,041 - INFO - [Coordinator] Workflow started
+2026-04-20 14:47:31,041 - INFO - [Researcher] Received query: What is financial risk?
+2026-04-20 14:47:31,041 - INFO - [Researcher] Completed research task
+2026-04-20 14:47:31,041 - INFO - [Coordinator] Research completed
+2026-04-20 14:47:31,042 - INFO - [Analyzer] Received input for analysis
+2026-04-20 14:47:31,042 - INFO - [Analyzer] Completed analysis
+2026-04-20 14:47:31,042 - INFO - [Coordinator] Analysis completed
+2026-04-20 14:47:31,042 - INFO - [Critic] Reviewing content
+2026-04-20 14:47:31,042 - INFO - [Critic] Completed critique
+2026-04-20 14:47:31,042 - INFO - [Coordinator] Critique completed
+2026-04-20 14:47:31,042 - INFO - [Writer] Generating final report
+2026-04-20 14:47:31,448 - INFO - [Writer] Final report generated
+2026-04-20 14:47:31,449 - INFO - [Coordinator] Writing completed
+2026-04-20 14:47:31,449 - INFO - [Coordinator] Workflow finished successfully
+2026-04-20 14:50:14,377 - INFO - [Coordinator] Workflow started
+2026-04-20 14:50:14,378 - INFO - [Researcher] Received query: what is financial risk?
+2026-04-20 14:50:14,378 - INFO - [Researcher] Completed research task
+2026-04-20 14:50:14,378 - INFO - [Analyzer] Received input for analysis
+2026-04-20 14:50:14,378 - INFO - [Analyzer] Completed analysis
+2026-04-20 14:50:14,378 - INFO - [Critic] Reviewing content
+2026-04-20 14:50:14,378 - INFO - [Critic] Completed critique
+2026-04-20 14:50:14,378 - INFO - [Writer] Generating final report
+2026-04-20 14:50:14,378 - INFO - [Writer] Final report generated
+2026-04-20 14:50:14,378 - INFO - [Cost] Tokens used: 16, Cost: $0.000032
+2026-04-20 14:50:14,378 - INFO - [Total Cost] Tokens: 16, Cost: $0.000032
+2026-04-20 14:50:14,378 - INFO - [Coordinator] Workflow finished successfully
+2026-04-20 14:53:13,811 - INFO - [Coordinator] Workflow started
+2026-04-20 14:53:13,812 - INFO - [Researcher] Received query: What is financial risk?
+2026-04-20 14:53:13,812 - INFO - [Researcher] Completed research task
+2026-04-20 14:53:13,812 - INFO - [Analyzer] Received input for analysis
+2026-04-20 14:53:13,812 - INFO - [Analyzer] Completed analysis
+2026-04-20 14:53:13,812 - INFO - [Critic] Reviewing content
+2026-04-20 14:53:13,813 - INFO - [Critic] Completed critique
+2026-04-20 14:53:13,813 - INFO - [Writer] Generating final report
+2026-04-20 14:53:13,813 - INFO - [Writer] Final report generated
+2026-04-20 14:53:13,813 - INFO - [Cost] Tokens used: 16, Cost: $0.000032
+2026-04-20 14:53:13,813 - INFO - [Total Cost] Tokens: 16, Cost: $0.000032
+2026-04-20 14:53:13,813 - INFO - [Coordinator] Workflow finished successfully
+2026-04-20 15:05:48,435 - INFO - [Coordinator] Workflow started
+2026-04-20 15:05:48,436 - INFO - [Researcher] Received query: what is financial risk?
+2026-04-20 15:05:48,436 - INFO - [Researcher] Completed research task
+2026-04-20 15:05:48,436 - INFO - [Analyzer] Received input for analysis
+2026-04-20 15:05:48,436 - INFO - [Analyzer] Completed analysis
+2026-04-20 15:05:48,436 - INFO - [Critic] Reviewing content
+2026-04-20 15:05:48,436 - INFO - [Critic] Completed critique
+2026-04-20 15:05:48,436 - INFO - [Writer] Generating final report
+2026-04-20 15:05:48,436 - INFO - [Writer] Final report generated
+2026-04-20 15:05:48,436 - INFO - [Cost] Tokens used: 16, Cost: $0.000032
+2026-04-20 15:05:48,436 - INFO - [Total Cost] Tokens: 16, Cost: $0.000032
+2026-04-20 15:05:48,436 - INFO - [Coordinator] Workflow finished successfully
+2026-04-20 15:23:40,424 - INFO - [Coordinator] Workflow started
+2026-04-20 15:23:40,424 - INFO - [Researcher] Query: what is financial risk?
+2026-04-20 15:23:40,424 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:23:48,722 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:23:48,723 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:23:48,723 - INFO - [Researcher] Completed
+2026-04-20 15:23:48,723 - INFO - [Analyzer] Running analysis
+2026-04-20 15:23:48,723 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:23:48,774 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:23:48,775 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:23:48,775 - INFO - [Analyzer] Completed
+2026-04-20 15:23:48,775 - INFO - [Critic] Reviewing content
+2026-04-20 15:23:48,775 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:23:48,816 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:23:48,816 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:23:48,816 - INFO - [Critic] Completed
+2026-04-20 15:23:48,816 - INFO - [Writer] Generating final report
+2026-04-20 15:23:48,817 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:23:48,863 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:23:48,863 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:23:48,863 - INFO - [Writer] Completed
+2026-04-20 15:23:48,864 - INFO - [Cost] Tokens: 4, Cost: $0.000008
+2026-04-20 15:23:48,864 - INFO - [Total Cost] Tokens: 4, Cost: $0.000008
+2026-04-20 15:23:48,864 - INFO - [Coordinator] Workflow completed
+2026-04-20 15:33:12,855 - INFO - [Coordinator] Workflow started
+2026-04-20 15:33:12,856 - INFO - [Researcher] Query: what is financial risk?
+2026-04-20 15:33:12,856 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:13,133 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:13,134 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:13,134 - INFO - [Researcher] Completed
+2026-04-20 15:33:13,134 - INFO - [Analyzer] Running analysis
+2026-04-20 15:33:13,134 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:13,182 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:13,183 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:13,183 - INFO - [Analyzer] Completed
+2026-04-20 15:33:13,183 - INFO - [Critic] Reviewing content
+2026-04-20 15:33:13,183 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:13,221 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:13,222 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:13,222 - INFO - [Critic] Completed
+2026-04-20 15:33:13,222 - INFO - [Writer] Generating final report
+2026-04-20 15:33:13,222 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:13,263 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:13,263 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:13,264 - INFO - [Writer] Completed
+2026-04-20 15:33:13,264 - INFO - [Cost] Tokens: 4, Cost: $0.000008
+2026-04-20 15:33:13,264 - INFO - [Total Cost] Tokens: 4, Cost: $0.000008
+2026-04-20 15:33:13,264 - INFO - [Coordinator] Workflow completed
+2026-04-20 15:33:15,210 - INFO - [Coordinator] Workflow started
+2026-04-20 15:33:15,210 - INFO - [Researcher] Query: what is financial risk?
+2026-04-20 15:33:15,210 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:15,260 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:15,261 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:15,261 - INFO - [Researcher] Completed
+2026-04-20 15:33:15,261 - INFO - [Analyzer] Running analysis
+2026-04-20 15:33:15,261 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:15,305 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:15,306 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:15,306 - INFO - [Analyzer] Completed
+2026-04-20 15:33:15,306 - INFO - [Critic] Reviewing content
+2026-04-20 15:33:15,306 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:15,350 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:15,351 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:15,351 - INFO - [Critic] Completed
+2026-04-20 15:33:15,351 - INFO - [Writer] Generating final report
+2026-04-20 15:33:15,351 - INFO - [LLM] Sending request to Groq
+2026-04-20 15:33:15,389 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-20 15:33:15,389 - ERROR - [LLM ERROR] Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-20 15:33:15,389 - INFO - [Writer] Completed
+2026-04-20 15:33:15,390 - INFO - [Cost] Tokens: 4, Cost: $0.000008
+2026-04-20 15:33:15,390 - INFO - [Total Cost] Tokens: 8, Cost: $0.000016
+2026-04-20 15:33:15,390 - INFO - [Coordinator] Workflow completed
+2026-04-20 16:01:29,941 - INFO - [Coordinator] Workflow started
+2026-04-20 16:01:29,942 - INFO - [Researcher] Received query: What is financial risk?
+2026-04-20 16:01:29,942 - INFO - [Researcher] Completed
+2026-04-20 16:01:29,942 - INFO - [Coordinator] Research completed
+2026-04-20 16:01:29,942 - INFO - [Analyzer] Running analysis
+2026-04-20 16:01:29,943 - INFO - [Analyzer] Completed
+2026-04-20 16:01:29,943 - INFO - [Coordinator] Analysis completed
+2026-04-20 16:01:29,943 - INFO - [Critic] Reviewing content
+2026-04-20 16:01:29,943 - INFO - [Critic] Completed
+2026-04-20 16:01:29,943 - INFO - [Coordinator] Critique completed
+2026-04-20 16:01:29,943 - INFO - [Writer] Generating final report
+2026-04-20 16:01:29,943 - INFO - [Writer] Completed
+2026-04-20 16:01:29,943 - INFO - [Coordinator] Writing completed
+2026-04-20 16:01:29,944 - INFO - [Cost] Tokens: 40, Cost: $0.000080
+2026-04-20 16:01:29,944 - INFO - [Total Cost] Tokens: 40, Cost: $0.000080
+2026-04-20 16:01:29,944 - INFO - [Coordinator] Workflow completed
