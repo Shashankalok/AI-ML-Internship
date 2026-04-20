@@ -75,7 +75,7 @@ Day-24/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/Shashankalok/multi-agent-ai.git>
 cd Day-24
 ```
 
@@ -99,7 +99,7 @@ pip install pytest pytest-cov
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ```bash
 python main.py
